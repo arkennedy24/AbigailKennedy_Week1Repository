@@ -4,10 +4,10 @@ public class PlayerMovement : MonoBehaviour
 {
     void OnCollisionEnter(Collision other)
     {
-        Debug.Log("Collision detected with: " + other.gameObject.name);
+       Debug.Log("Collision detected with: " + other.gameObject.name);
         // Do something here, e.g., play a sound, trigger an animation, or destroy an object
         
-    }
+  }
     
     
     
@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         
     }
     
